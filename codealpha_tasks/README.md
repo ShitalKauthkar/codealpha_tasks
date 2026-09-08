@@ -1,23 +1,69 @@
-# CodeAlpha Task 2 – Exploratory Data Analysis on Netflix
+# CodeAlpha Data Analytics Internship
 
-## 📌 Project Overview
+This repository contains my completed tasks for the **CodeAlpha Data Analytics Internship**.
 
-This project is completed as part of the **CodeAlpha Data Analytics Internship – Task 2: Exploratory Data Analysis (EDA)**.
+The projects focus on **Exploratory Data Analysis, Data Visualization, and Sentiment Analysis** using Python and real-world datasets.
 
-The objective of this project is to explore and analyze the Netflix Movies and TV Shows dataset to identify trends, patterns, missing values, and useful insights.
+---
 
-## 🎯 Objectives
+## 📌 Internship Tasks
 
-- Understand the structure of the Netflix dataset
-- Perform data cleaning and preprocessing
-- Identify and handle missing values
-- Detect duplicate records
-- Analyze Movies and TV Shows
-- Analyze ratings, countries, and genres
-- Study release-year trends
-- Analyze movie durations and TV show seasons
-- Identify meaningful patterns and insights
-- Create visualizations to communicate findings
+### Task 2 — Exploratory Data Analysis (EDA)
+
+Performed Exploratory Data Analysis on the **Netflix Movies and TV Shows dataset** to understand the data, identify patterns, handle missing values, and generate meaningful insights.
+
+#### Key Activities
+- Loaded and explored the Netflix dataset
+- Checked dataset structure and data types
+- Performed data cleaning and preprocessing
+- Identified and handled missing values
+- Checked duplicate records
+- Analyzed movies and TV shows
+- Analyzed content distribution by year
+- Studied ratings and genres
+- Created visualizations to identify trends and patterns
+
+#### Files
+- `EDA_Netflix.ipynb`
+- `netflix_titles.csv`
+- `visualizations/`
+
+---
+
+### Task 3 — Data Visualization
+
+Created meaningful visualizations to communicate insights from the Netflix dataset.
+
+#### Key Activities
+- Created different charts and plots
+- Analyzed content trends
+- Visualized genres and ratings
+- Compared Movies and TV Shows
+- Analyzed yearly content growth
+- Used appropriate charts for data storytelling
+
+#### Files
+- `CodeAlpha_Task3_Visualization.ipynb`
+- `visualizations_task3/`
+
+---
+
+### Task 4 — Sentiment Analysis
+
+Performed sentiment analysis to understand the distribution of positive, negative, and neutral sentiments.
+
+#### Key Activities
+- Performed text preprocessing
+- Analyzed text sentiment
+- Classified text based on sentiment
+- Visualized sentiment distribution
+- Generated insights from sentiment results
+
+#### Files
+- `CodeAlpha_Task4_Sentiment_Analysis.ipynb`
+- `sentiment_distribution.png`
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -27,144 +73,28 @@ The objective of this project is to explore and analyze the Netflix Movies and T
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Natural Language Processing (NLP)
+- Sentiment Analysis
+- Git & GitHub
 
-## 📂 Dataset
+---
 
-The dataset contains information about Netflix Movies and TV Shows.
-
-### Dataset Features
-
-- `show_id` – Unique identifier
-- `type` – Movie or TV Show
-- `title` – Title of the content
-- `director` – Director of the content
-- `cast` – Cast members
-- `country` – Country of production
-- `date_added` – Date added to Netflix
-- `release_year` – Original release year
-- `rating` – Content rating
-- `duration` – Movie duration or number of TV seasons
-- `listed_in` – Genre/category
-- `description` – Content description
-
-## 🔍 EDA Performed
-
-### 1. Data Understanding
-
-- Checked number of rows and columns
-- Examined column names
-- Checked data types
-- Generated basic statistical summaries
-
-### 2. Missing Value Analysis
-
-Missing values were identified in columns such as:
-
-- Director
-- Cast
-- Country
-- Date Added
-- Rating
-- Duration
-
-Missing categorical values were handled using appropriate placeholder values instead of unnecessarily deleting records.
-
-### 3. Duplicate Analysis
-
-Duplicate records were checked and no duplicate rows were found.
-
-### 4. Content Type Analysis
-
-Movies and TV Shows were compared to understand their distribution on Netflix.
-
-### 5. Release Trend Analysis
-
-The distribution of Netflix titles across different release years was analyzed.
-
-### 6. Rating Analysis
-
-The most common content ratings available on Netflix were identified.
-
-### 7. Country Analysis
-
-Countries contributing the highest number of Netflix titles were analyzed.
-
-### 8. Genre Analysis
-
-The most frequently occurring Netflix genres were identified.
-
-### 9. Movie Duration Analysis
-
-Movie durations were extracted and analyzed in minutes.
-
-### 10. TV Show Season Analysis
-
-The number of seasons available for TV Shows was analyzed.
-
-### 11. Content Addition Trend
-
-The number of titles added to Netflix over different years was analyzed.
-
-### 12. Anomaly Analysis
-
-Older release years were examined to identify unusual patterns in the dataset.
-
-### 13. Hypothesis Analysis
-
-The distribution of Movies and TV Shows was compared using statistical values and visualization.
-
-## 📊 Visualizations
-
-The project includes visualizations for:
-
-- Movies vs TV Shows
-- Movies vs TV Shows percentage distribution
-- Release-year trends
-- Movies vs TV Shows release trend
-- Content ratings
-- Top countries
-- Top genres
-- Movie duration distribution
-- TV show seasons
-- Netflix content added over the years
-- Top release years
-- Missing values analysis
-
-All visualization images are stored in the `visualizations` folder.
-
-## 💡 Key Insights
-
-- Netflix contains more Movies than TV Shows.
-- Movies account for approximately **69.62%** of the dataset, while TV Shows account for approximately **30.38%**.
-- Missing values were mainly observed in the **Director, Cast, and Country** columns.
-- The dataset contains **no duplicate records**.
-- Release-year analysis shows changes in Netflix content distribution across different years.
-- Rating analysis identifies the most common content ratings.
-- Country and genre analysis highlights the major contributors and content categories.
-- Movie duration analysis provides insights into the distribution of movie lengths.
-- TV Show season analysis shows the distribution of the number of seasons.
-- Content addition analysis shows how Netflix content changed over different years.
-
-## 📁 Project Structure
+## 📂 Repository Structure
 
 ```text
-CodeAlpha_EDA/
+codealpha_tasks/
 │
-├── EDA_Netflix.ipynb
-├── netflix_titles.csv
-├── README.md
+├── Task_2_EDA/
+│   ├── visualizations/
+│   ├── EDA_Netflix.ipynb
+│   └── netflix_titles.csv
 │
-└── visualizations/
-    ├── missing_values.png
-    ├── movies_vs_tv_shows_hypothesis.png
-    ├── movies_vs_tv_shows.png
-    ├── release_trend.png
-    ├── movies_vs_tv_shows_release_trend.png
-    ├── top_ratings.png
-    ├── top_countries.png
-    ├── top_genres.png
-    ├── movie_duration_distribution.png
-    ├── tv_show_seasons.png
-    ├── content_added_trend.png
-    ├── top_release_years.png
-    └── movies_vs_tv_shows_pie.png
+├── Task_3_Data_Visualization/
+│   ├── visualizations_task3/
+│   └── CodeAlpha_Task3_Visualization.ipynb
+│
+├── Task_4_Sentiment_Analysis/
+│   ├── CodeAlpha_Task4_Sentiment_Analysis.ipynb
+│   └── sentiment_distribution.png
+│
+└── README.md
