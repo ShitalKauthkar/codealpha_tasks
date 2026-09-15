@@ -2,11 +2,40 @@
 
 This repository contains my completed tasks for the **CodeAlpha Data Analytics Internship**.
 
-The projects focus on **Exploratory Data Analysis, Data Visualization, and Sentiment Analysis** using Python and real-world datasets.
+The projects focus on **Web Scraping, Exploratory Data Analysis, Data Visualization, and Sentiment Analysis** using Python and real-world datasets.
 
 ---
 
 ## 📌 Internship Tasks
+
+### Task 1 — Web Scraping
+
+Developed a Python-based web scraping project to collect structured book information from a public online bookstore website.
+
+#### Project Title
+**Web Scraping of Online Bookstore Data Using Python**
+
+#### Key Activities
+- Sent HTTP requests to the website
+- Parsed HTML content using BeautifulSoup
+- Extracted book information from multiple pages
+- Collected book titles, prices, ratings, availability, and book URLs
+- Stored the extracted data using Pandas
+- Exported the final dataset to CSV format
+
+#### Technologies Used
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+
+#### Files
+- `web_scraping.py`
+- `scraped_books.csv`
+- `requirements.txt`
+- `README.md`
+
+---
 
 ### Task 2 — Exploratory Data Analysis (EDA)
 
@@ -72,6 +101,8 @@ Performed sentiment analysis to understand the distribution of positive, negativ
 - NumPy
 - Matplotlib
 - Seaborn
+- BeautifulSoup
+- Requests
 - Jupyter Notebook
 - Natural Language Processing (NLP)
 - Sentiment Analysis
@@ -84,17 +115,40 @@ Performed sentiment analysis to understand the distribution of positive, negativ
 ```text
 codealpha_tasks/
 │
-├── Task_2_EDA/
-│   ├── visualizations/
-│   ├── EDA_Netflix.ipynb
-│   └── netflix_titles.csv
-│
-├── Task_3_Data_Visualization/
-│   ├── visualizations_task3/
-│   └── CodeAlpha_Task3_Visualization.ipynb
-│
-├── Task_4_Sentiment_Analysis/
-│   ├── CodeAlpha_Task4_Sentiment_Analysis.ipynb
-│   └── sentiment_distribution.png
+├── codealpha_tasks/
+│   │
+│   ├── Task_1_Web_Scraping/
+│   │   ├── README.md
+│   │   ├── web_scraping.py
+│   │   ├── scraped_books.csv
+│   │   └── requirements.txt
+│   │
+│   ├── Task_2_EDA/
+│   │   ├── visualizations/
+│   │   ├── EDA_Netflix.ipynb
+│   │   └── netflix_titles.csv
+│   │
+│   ├── Task_3_Data_Visualization/
+│   │   ├── visualizations_task3/
+│   │   └── CodeAlpha_Task3_Visualization.ipynb
+│   │
+│   └── Task_4_Sentiment_Analysis/
+│       ├── CodeAlpha_Task4_Sentiment_Analysis.ipynb
+│       └── sentiment_distribution.png
 │
 └── README.md
+```
+
+---
+
+## 🎯 Internship Objective
+
+The objective of these tasks is to gain practical experience in data collection, data cleaning, exploratory analysis, visualization, and text-based analysis using Python.
+
+---
+
+## 👩‍💻 Author
+
+**Shital Kauthkar**
+
+Data Analytics Intern — CodeAlpha
